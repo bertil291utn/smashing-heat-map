@@ -67,7 +67,7 @@ form {
 
 .div-feature figure,
 h2 {
-  margin: 10%;
+  margin: 15px 10% 15px 10%;
 }
 
 /*Style in author name section */
@@ -112,7 +112,7 @@ footer {
 }
 
 .hashtag {
-  margin: 0 10% 10% 0;
+  margin: 0 10% 40px 10%;
 }
 /* grayscale */
 .first-level-color {
