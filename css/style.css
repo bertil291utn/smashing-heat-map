@@ -83,7 +83,7 @@ form {
 .main-article {
   width: 100%;
   top: 35px;
-  
+
 }
 
 .main-article-title {
@@ -129,6 +129,60 @@ h2 {
   font-style: italic;
 }
 
+/* Other articles style */
+
+.other-articles {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.other-articles time{
+  font-size: 1em;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.other-articles h2{
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.other-articles p{
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: left;
+  padding: 10px;
+}
+
+.other-articles-div {
+  width: 22%;
+  height: 40vw;
+  margin-right: 50px;
+}
+
+.other-articles-adv {
+  width: 45%;
+  height: auto;
+  flex-direction: column;
+}
+
+.img-other-art-adv {
+  margin: 20px 35%;
+  width: 250px;
+  height: 300px;
+}
+
+button {
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  border: none;
+}
+
+.sign-in {
+  font-size: .7em;
+  text-align: center;
+}
 /* Footer style */
 footer {
   background-color: #ddd;
@@ -144,6 +198,7 @@ footer {
 
 .comment {
   margin: 1px 10%;
+  font-size: 1.8em;
 }
 
 .square-comment {
@@ -154,8 +209,19 @@ footer {
 }
 
 .hashtag {
-  margin: 0 10% 40px 10%;
+  margin: 20px 10% 40px 10%;
+  line-height: 1.6;
+  font-size: 1.6em;
 }
+
+.square-arrow {
+  box-sizing: border-box;
+  height: 42px;
+  width: 42px;
+  border: solid #fff;
+  margin-bottom: 10px;
+}
+
 /* grayscale */
 .first-level-color {
   background-color: #444444;
