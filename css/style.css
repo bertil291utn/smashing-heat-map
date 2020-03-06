@@ -1,6 +1,6 @@
 /* Here start CSS */
 body {
-  font-family: ;
+  font-family: 'Spinnaker', sans-serif;
   font-size: ;
 }
 
@@ -9,9 +9,27 @@ body {
   display: flex;
 }
 
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
 /* Navbar style */
+
 nav {
-  background-color: #e2e2e2;
+  
+}
+
+.navbar-items {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-size: 20px;
+}
+
+.justify-center {
+  align-items: center;
+  justify-content: center;
 }
 
 /* Header in main */
@@ -39,15 +57,12 @@ form {
 }
 
 .authors-photo {
-
 }
 
 .author-name {
-
 }
 
 .wrotes {
-
 }
 
 /* Footer style */
@@ -55,9 +70,25 @@ footer {
   background-color: #ddd;
 }
 .browse-list {
-
 }
 
-.contact-info{
-
+.contact-info {
 }
+
+/* grayscale */
+.first-level-color {
+  background-color: #444444;
+}
+
+.second-level-color {
+  background-color: #777777;
+}
+
+.third-level-color {
+  background-color: #aaaaaa;
+}
+
+.fourth-level-color {
+  background-color: #dddddd;
+}
+/* grayscale */
