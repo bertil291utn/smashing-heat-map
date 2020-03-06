@@ -1,1 +1,63 @@
-{\rtf1}
+/* Here start CSS */
+body {
+  font-family: ;
+  font-size: ;
+}
+
+/* All elements with this class have flex */
+.flex-container {
+  display: flex;
+}
+
+/* Navbar style */
+nav {
+  background-color: #e2e2e2;
+}
+
+/* Header in main */
+main {
+  flex-direction: column;
+}
+
+h1 {
+  background-color: #fff;
+}
+
+form {
+  background-color: ;
+}
+/* Different class of articles in main */
+.feature-article {
+}
+
+.feature1 {
+  background-color: #e5e5e5;
+}
+
+.feature2 {
+  background-color: #eee;
+}
+
+.authors-photo {
+
+}
+
+.author-name {
+
+}
+
+.wrotes {
+
+}
+
+/* Footer style */
+footer {
+  background-color: #ddd;
+}
+.browse-list {
+
+}
+
+.contact-info{
+
+}
