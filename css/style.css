@@ -1,7 +1,11 @@
 /* Here start CSS */
 body {
-  font-family: 'Spinnaker', sans-serif;
-  font-size: ;
+  font-family: "Spinnaker", sans-serif;
+  min-width: 1240px;
+  max-height: 1200px;
+  color: white;
+  margin-left:5px;
+  /* overflow-x: hidden; */
 }
 
 /* All elements with this class have flex */
@@ -13,23 +17,33 @@ body {
   justify-content: space-between;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 /* Navbar style */
 
 nav {
-
 }
 
 .navbar-items {
   margin: 5px;
   width: 150px;
   height: 150px;
-  color: white;
   font-size: 20px;
 }
 
-.justify-center {
+.justify-align-center {
   align-items: center;
   justify-content: center;
+}
+
+.align-center{
+  align-items: center;
 }
 
 /* Header in main */
@@ -39,10 +53,7 @@ main {
 }
 
 h1 {
-  width: 400px;
-  text-align: center;
   font-size: 1.875em;
-  margin: 0 35%;
 }
 
 h2 {
@@ -61,8 +72,38 @@ form {
 }
 
 .div-feature {
-  width: 49%;
-  border: solid #e2e2e2;
+  width: 49.65%;
+  border: 0.6px solid blue;
+}
+
+.padding-y {
+  padding: 50px 0;
+}
+
+.main-article {
+  width: 100%;
+  top: 35px;
+  
+}
+
+.main-article-title {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+}
+
+.seriously-red {
+  margin: -70px 50px 0 0;
+  float: right;
+  padding:10px ;
+}
+
+.first-articles {
+  padding-top: 150px;
 }
 
 .div-feature figure,
@@ -79,8 +120,9 @@ h2 {
 }
 
 .author-name {
-  font-size: calc(.35842vw + .95296em);
+  font-size: calc(0.35842vw + 0.95296em);
   text-shadow: 1px 1px 1px 1px #fff;
+  margin-left: 20px;
 }
 
 .wrotes {
