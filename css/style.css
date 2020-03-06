@@ -16,7 +16,7 @@ body {
 /* Navbar style */
 
 nav {
-  
+
 }
 
 .navbar-items {
@@ -35,10 +35,20 @@ nav {
 /* Header in main */
 main {
   flex-direction: column;
+  width: 100%;
 }
 
 h1 {
-  background-color: #fff;
+  width: 400px;
+  text-align: center;
+  font-size: 1.875em;
+  margin: 0 35%;
+}
+
+h2 {
+  font-size: calc(1.375rem + 1.6vw);
+  line-height: 1.2;
+  margin: 0.5em 0 0.25em 0;
 }
 
 form {
@@ -46,35 +56,64 @@ form {
 }
 /* Different class of articles in main */
 .feature-article {
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.feature1 {
-  background-color: #e5e5e5;
+.div-feature {
+  width: 49%;
+  border: solid #e2e2e2;
 }
 
-.feature2 {
-  background-color: #eee;
+.div-feature figure,
+h2 {
+  margin: 10%;
 }
 
+/*Style in author name section */
 .authors-photo {
+  box-sizing: border-box;
+  width: 72px;
+  height: 72px;
+  border: 5px solid #fff;
 }
 
 .author-name {
+  font-size: calc(.35842vw + .95296em);
+  text-shadow: 1px 1px 1px 1px #fff;
 }
 
 .wrotes {
+  font-style: italic;
 }
 
 /* Footer style */
 footer {
   background-color: #ddd;
 }
+
 .browse-list {
 }
 
 .contact-info {
 }
 
+/* Comment section */
+
+.comment {
+  margin: 1px 10%;
+}
+
+.square-comment {
+  box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+  border: solid #fff;
+}
+
+.hashtag {
+  margin: 0 10% 10% 0;
+}
 /* grayscale */
 .first-level-color {
   background-color: #444444;
