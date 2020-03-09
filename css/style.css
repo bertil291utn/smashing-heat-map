@@ -27,9 +27,6 @@ body {
 
 /* Navbar style */
 
-nav {
-}
-
 .navbar-items {
   margin: 5px;
   width: 150px;
@@ -62,10 +59,8 @@ h2 {
   margin: 0.5em 0 0.25em 0;
 }
 
-form {
-  background-color: ;
-}
 /* Different class of articles in main */
+
 .feature-article {
   width: 100%;
   flex-wrap: wrap;
@@ -73,7 +68,7 @@ form {
 
 .div-feature {
   width: 49.65%;
-  border: 0.6px solid blue;
+  border: 0.6px solid #aaa;
 }
 
 .padding-y {
@@ -113,7 +108,8 @@ form {
   margin: 15px 10% 15px 10%;
 }
 
-/*Style in author name section */
+/* Style in author name section */
+
 .authors-photo {
   box-sizing: border-box;
   width: 72px;
@@ -234,6 +230,10 @@ form {
   padding: 10px;
 }
 
+.other-persons p {
+  margin-left: 72px;
+}
+
 .person-year .content p {
   margin-top: 10px;
 }
@@ -252,22 +252,6 @@ form {
 .other-persons h2 {
   font-size: 1.8rem;
   margin-left: 72px;
-}
-
-.other-persons p {
-  margin-left: 72px;
-}
-
-/* Footer style */
-
-footer {
-  background-color: #ddd;
-}
-
-.browse-list {
-}
-
-.contact-info {
 }
 
 /* Comment section */
@@ -309,12 +293,13 @@ footer {
   display: inline-block;
   border-bottom: 5px solid;
   text-transform: uppercase;
-  text-variant: small-caps;
-  text-size: 1.4rem;
+  font-variant: small-caps;
+  font-size: 1.4rem;
   color: white;
 }
 
-/*Style of Feature Book section */
+/* Style of Feature Book section */
+
 .feature-book {
   width: 100%;
 }
@@ -330,7 +315,7 @@ footer {
 
 .feature-book-content {
   max-width: 60%;
-  margin: 30px 0px 50px 50px;
+  margin: 30px 0 50px 50px;
 }
 
 .feature-book-content button {
@@ -343,31 +328,30 @@ footer {
 }
 
 /* grayscale */
+
 .first-level-color {
-  background-color: #444444;
+  background-color: #444;
 }
 
 .second-level-color {
-  background-color: #777777;
+  background-color: #777;
 }
 
 .third-level-color {
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
 
 .fourth-level-color {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
+
+/* grayscale */
 
 /* Style of event box */
 #event-box {
   flex-direction: column;
   align-items: baseline;
   width: 100%;
-}
-
-#event-box p {
-  margin: auto;
 }
 
 #event-box div {
@@ -380,9 +364,24 @@ footer {
   text-shadow: 1px 1px 1px #e2e2e2;
 }
 
+.article h2 {
+  width: 90%;
+  font-size: 20px;
+}
+
+.smashing-newsletter h2 {
+  margin: 10px;
+  font-size: 40px;
+}
+
 #event-box h2 {
   margin: 20px auto;
   text-align: center;
+}
+
+.smashing-newsletter a {
+  color: white;
+  text-decoration: none;
 }
 
 #event-box h2 a {
@@ -424,19 +423,17 @@ footer {
   margin: 10px;
 }
 
-.article h2 {
-  width: 90%;
-  font-size: 20px;
-}
-
 .article ul {
   margin-left: 20px;
   width: 75%;
 }
 
+footer li {
+  display: inline;
+}
+
 .second-level-color li {
   margin: 15px 0;
-
 }
 
 .article small {
@@ -444,20 +441,10 @@ footer {
 }
 
 .smashing-newsletter {
-  margin:100px 0;
+  margin: 100px 0;
   padding: 50px;
   border-radius: 10px;
   flex-direction: column;
-}
-
-.smashing-newsletter a {
-  color: white;
-  text-decoration: none;
-}
-
-.smashing-newsletter h2 {
-  margin: 10px;
-  font-size: 40px;
 }
 
 .smashing-newsletter .content {
@@ -481,7 +468,7 @@ footer {
 
 .smashing-newsletter .footer-content {
   margin: 10px;
-  font-size:15px ;
+  font-size: 15px;
 }
 
 footer {
@@ -492,18 +479,15 @@ footer h4 {
   margin: 50px;
 }
 
-footer li {
-    display: inline;
-}
-
 .footer-topics {
   margin: 0 100px;
   width: 75%;
 }
 
 ul.footer-topics li::before {
-  content: '\25CF';
-  margin-right: 0.5em; }
+  content: "\25CF";
+  margin-right: 0.5em;
+}
 
 ul.footer-topics {
   text-align: center;
@@ -522,7 +506,7 @@ ul.footer-topics li {
 }
 
 .contact {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .contact ul {
@@ -537,6 +521,3 @@ ul.footer-topics li {
   width: 90px;
   height: 120px;
 }
-
-
-/* grayscale */
