@@ -216,6 +216,7 @@ form {
   height: 200px;
 }
 
+/* Style of Person of the year's section */
 .person-year {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -235,6 +236,26 @@ form {
 
 .person-year .content p {
   margin-top: 10px;
+}
+
+/* Style of other persons section */
+
+.other-persons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 80px;
+  margin: 50px 20px 0 20px;
+}
+
+.other-persons h2 {
+  font-size: 1.8rem;
+  margin-left: 72px;
+}
+
+.other-persons p {
+  margin-left: 72px;
 }
 
 /* Footer style */
@@ -291,6 +312,34 @@ footer {
   text-variant: small-caps;
   text-size: 1.4rem;
   color: white;
+}
+
+/*Style of Feature Book section */
+.feature-book {
+  width: 100%;
+}
+
+.img-feature-book {
+  float: right;
+  position: relative;
+  top: -75px;
+  right: 75px;
+  width: 300px;
+  height: 420px;
+}
+
+.feature-book-content {
+  max-width: 900px;
+  margin: 30px 0px 50px 50px;
+}
+
+.feature-book-content button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  height: 50px;
+  border: none;
 }
 
 /* grayscale */
