@@ -4,8 +4,8 @@ body {
   min-width: 1240px;
   max-height: 1200px;
   color: white;
-  margin-left:5px;
-  /* overflow-x: hidden; */
+  margin-left: 5px;
+  overflow-x: hidden;
 }
 
 /* All elements with this class have flex */
@@ -42,7 +42,7 @@ nav {
   justify-content: center;
 }
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
@@ -83,7 +83,6 @@ form {
 .main-article {
   width: 100%;
   top: 35px;
-
 }
 
 .main-article-title {
@@ -99,7 +98,7 @@ form {
 .seriously-red {
   margin: -70px 50px 0 0;
   float: right;
-  padding:10px ;
+  padding: 10px;
 }
 
 .first-articles {
@@ -134,20 +133,27 @@ h2 {
 .other-articles {
   width: 100%;
   flex-wrap: wrap;
+  margin-left: 30px;
 }
 
-.other-articles time{
+.other-articles time {
   font-size: 1em;
   font-variant: small-caps;
   text-transform: lowercase;
 }
 
-.other-articles h2{
+.other-articles h2 {
   font-size: 1.8em;
   text-align: left;
+  margin: 15px 0;
 }
 
-.other-articles p{
+.other-articles span {
+  display: block;
+  margin: 20px 0;
+}
+
+.other-articles p {
   font-size: 1.2em;
   line-height: 1.4em;
   text-align: left;
@@ -156,34 +162,59 @@ h2 {
 
 .other-articles-div {
   width: 22%;
-  height: 40vw;
-  margin-right: 50px;
+  padding: 50px 0 0 50px;
+  margin: 30px 10px;
+  padding-left: 20px;
+}
+
+.other-articles-div div {
+  margin-top: 80px;
 }
 
 .other-articles-adv {
   width: 45%;
-  height: auto;
   flex-direction: column;
+  border-radius: 10px;
 }
 
-.img-other-art-adv {
-  margin: 20px 35%;
-  width: 250px;
-  height: 300px;
+.other-articles-adv h2 {
+  margin: 20px auto;
+  width: 400px;
+  text-align-last: center;
 }
 
-button {
-  margin: auto;
-  width: 100px;
+.other-articles-adv .content-article {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 400px;
+  text-align-last: center;
+}
+
+.other-articles-adv button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
   height: 50px;
   border: none;
 }
 
-.sign-in {
-  font-size: .7em;
+.other-articles-adv .sign-in {
+  font-size: 12px;
   text-align: center;
+  width: 200px;
+  padding: 5px;
+  margin: 0 auto;
 }
+
+.img-other-art-adv {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+}
+
 /* Footer style */
+
 footer {
   background-color: #ddd;
 }
@@ -220,6 +251,7 @@ footer {
   width: 42px;
   border: solid #fff;
   margin-bottom: 10px;
+  padding: 0 40px;
 }
 
 /* grayscale */
