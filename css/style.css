@@ -484,7 +484,59 @@ footer {
   font-size:15px ;
 }
 
-footer{
+footer {
   flex-direction: column;
 }
+
+footer h4 {
+  margin: 50px;
+}
+
+footer li {
+    display: inline;
+}
+
+.footer-topics {
+  margin: 0 100px;
+  width: 75%;
+}
+
+ul.footer-topics li::before {
+  content: '\25CF';
+  margin-right: 0.5em; }
+
+ul.footer-topics {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+ul.footer-topics li {
+  list-style-type: disc;
+}
+
+.footer-notes {
+  width: 30%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 60px;
+}
+
+.contact {
+  font-size: .9rem;
+}
+
+.contact ul {
+  width: 30%;
+  margin: auto;
+}
+
+.right-image {
+  position: relative;
+  left: 150px;
+  top: -150px;
+  width: 90px;
+  height: 120px;
+}
+
+
 /* grayscale */
