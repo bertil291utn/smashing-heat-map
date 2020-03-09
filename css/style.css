@@ -105,8 +105,11 @@ form {
   padding-top: 150px;
 }
 
-.div-feature figure,
-h2 {
+.div-feature figure {
+  margin: 15px 10% 15px 10%;
+}
+
+.div-feature h2 {
   margin: 15px 10% 15px 10%;
 }
 
@@ -162,19 +165,19 @@ h2 {
 
 .other-articles-div {
   width: 22%;
-  padding: 50px 0 0 50px;
-  margin: 30px 10px;
-  padding-left: 20px;
+  padding: 0 10px;
+  margin-top: 50px;
 }
 
 .other-articles-div div {
-  margin-top: 80px;
+  margin-top: 230px;
 }
 
 .other-articles-adv {
   width: 45%;
   flex-direction: column;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
 .other-articles-adv h2 {
@@ -211,6 +214,27 @@ h2 {
   margin: 30px auto;
   width: 200px;
   height: 200px;
+}
+
+.person-year {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px;
+  color: white;
+  margin: 30px 10px;
+}
+
+.person-year .image {
+  width: 100px;
+  height: 100px;
+}
+
+.person-year .content {
+  padding: 10px;
+}
+
+.person-year .content p {
+  margin-top: 10px;
 }
 
 /* Footer style */
@@ -293,9 +317,12 @@ footer {
   width: 100%;
 }
 
-#event-box p,
-div {
+#event-box p {
   margin: auto;
+}
+
+#event-box div {
+  margin: 50px auto;
 }
 
 #event-box time {
@@ -309,12 +336,22 @@ div {
   text-align: center;
 }
 
+#event-box h2 a {
+  color: white;
+}
+
+#event-box h2 span {
+  display: block;
+  margin: 10px 0;
+}
+
 #event-box p {
   font-weight: 700;
   font-size: 1.4rem;
   margin: auto;
   width: 800px;
   line-height: 2rem;
+  text-align: center;
 }
 
 #event-box button {
@@ -328,8 +365,6 @@ div {
 
 #big-image-event {
   padding: 200px 400px;
-  border: 5px solid #fff;
 }
-
 
 /* grayscale */
