@@ -204,7 +204,7 @@ h2 {
   text-align: center;
   width: 200px;
   padding: 5px;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 }
 
 .img-other-art-adv {
@@ -254,6 +254,21 @@ footer {
   padding: 0 40px;
 }
 
+/* Style in see more articles section */
+
+.see-more {
+  margin: 80px auto 80px auto;
+}
+
+.see-more a {
+  display: inline-block;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  text-variant: small-caps;
+  text-size: 1.4rem;
+  color: white;
+}
+
 /* grayscale */
 .first-level-color {
   background-color: #444444;
@@ -270,4 +285,51 @@ footer {
 .fourth-level-color {
   background-color: #dddddd;
 }
+
+/* Style of event box */
+#event-box {
+  flex-direction: column;
+  align-items: baseline;
+  width: 100%;
+}
+
+#event-box p,
+div {
+  margin: auto;
+}
+
+#event-box time {
+  margin: 50px auto 0 auto;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #e2e2e2;
+}
+
+#event-box h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#event-box p {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: auto;
+  width: 800px;
+  line-height: 2rem;
+}
+
+#event-box button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  height: 50px;
+  border: none;
+}
+
+#big-image-event {
+  padding: 200px 400px;
+  border: 5px solid #fff;
+}
+
+
 /* grayscale */
