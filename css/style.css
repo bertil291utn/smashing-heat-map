@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #fff;
+}
+
 /* All elements with this class have flex */
 .flex-container {
   display: flex;
@@ -345,8 +349,6 @@ h2 {
   background-color: #ddd;
 }
 
-/* grayscale */
-
 /* Style of event box */
 #event-box {
   flex-direction: column;
@@ -473,6 +475,10 @@ footer li {
 
 footer {
   flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer h4 {
