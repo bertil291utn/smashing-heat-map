@@ -1,1 +1,529 @@
-{\rtf1}
+/* Here start CSS */
+body {
+  font-family: "Spinnaker", sans-serif;
+  min-width: 1240px;
+  max-height: 1200px;
+  color: white;
+  margin-left: 5px;
+  overflow-x: hidden;
+}
+
+a {
+  color: #fff;
+}
+
+/* All elements with this class have flex */
+.flex-container {
+  display: flex;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* Navbar style */
+
+.navbar-items {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  font-size: 20px;
+}
+
+.justify-align-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Header in main */
+main {
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.875em;
+}
+
+h2 {
+  font-size: calc(1.375rem + 1.6vw);
+  line-height: 1.2;
+  margin: 0.5em 0 0.25em 0;
+}
+
+/* Different class of articles in main */
+
+.feature-article {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.div-feature {
+  width: 49.65%;
+  border: 0.6px solid #aaa;
+}
+
+.padding-y {
+  padding: 50px 0;
+}
+
+.main-article {
+  width: 100%;
+  top: 35px;
+}
+
+.main-article-title {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+}
+
+.seriously-red {
+  margin: -70px 50px 0 0;
+  float: right;
+  padding: 10px;
+}
+
+.first-articles {
+  padding-top: 150px;
+}
+
+.div-feature figure {
+  margin: 15px 10% 15px 10%;
+}
+
+.div-feature h2 {
+  margin: 15px 10% 15px 10%;
+}
+
+/* Style in author name section */
+
+.authors-photo {
+  box-sizing: border-box;
+  width: 72px;
+  height: 72px;
+  border: 5px solid #fff;
+}
+
+.author-name {
+  font-size: calc(0.35842vw + 0.95296em);
+  text-shadow: 1px 1px 1px 1px #fff;
+  margin-left: 20px;
+}
+
+.wrotes {
+  font-style: italic;
+}
+
+/* Other articles style */
+
+.other-articles {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.other-articles time {
+  font-size: 1em;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.other-articles h2 {
+  font-size: 1.8em;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.other-articles span {
+  display: block;
+  margin: 20px 0;
+}
+
+.other-articles p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: left;
+  padding: 10px;
+}
+
+.other-articles-div {
+  width: 22%;
+  padding: 0 10px;
+  margin-top: 50px;
+}
+
+.other-articles-div div {
+  margin-top: 230px;
+}
+
+.other-articles-adv {
+  width: 45%;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.other-articles-adv h2 {
+  margin: 20px auto;
+  width: 400px;
+  text-align-last: center;
+}
+
+.other-articles-adv .content-article {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 400px;
+  text-align-last: center;
+}
+
+.other-articles-adv button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  height: 50px;
+  border: none;
+}
+
+.other-articles-adv .sign-in {
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  padding: 5px;
+  margin: 0 auto 40px auto;
+}
+
+.img-other-art-adv {
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+}
+
+/* Style of Person of the year's section */
+.person-year {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px;
+  color: white;
+  margin: 30px 10px;
+}
+
+.person-year .image {
+  width: 100px;
+  height: 100px;
+}
+
+.person-year .content {
+  padding: 10px;
+}
+
+.other-persons p {
+  margin-left: 72px;
+}
+
+.person-year .content p {
+  margin-top: 10px;
+}
+
+/* Style of other persons section */
+
+.other-persons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 80px;
+  margin: 50px 20px 0 20px;
+}
+
+.other-persons h2 {
+  font-size: 1.8rem;
+  margin-left: 72px;
+}
+
+/* Comment section */
+
+.comment {
+  margin: 1px 10%;
+  font-size: 1.8em;
+}
+
+.square-comment {
+  box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+  border: solid #fff;
+}
+
+.hashtag {
+  margin: 20px 10% 40px 10%;
+  line-height: 1.6;
+  font-size: 1.6em;
+}
+
+.square-arrow {
+  box-sizing: border-box;
+  height: 42px;
+  width: 42px;
+  border: solid #fff;
+  margin-bottom: 10px;
+  padding: 0 40px;
+}
+
+/* Style in see more articles section */
+
+.see-more {
+  margin: 80px auto 80px auto;
+}
+
+.see-more a {
+  display: inline-block;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* Style of Feature Book section */
+
+.feature-book {
+  width: 100%;
+}
+
+.img-feature-book {
+  float: right;
+  position: relative;
+  top: -75px;
+  right: 75px;
+  width: 300px;
+  height: 420px;
+}
+
+.feature-book-content {
+  max-width: 60%;
+  margin: 30px 0 50px 50px;
+}
+
+.feature-book-content button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  height: 50px;
+  border: none;
+}
+
+/* grayscale */
+
+.first-level-color {
+  background-color: #444;
+}
+
+.second-level-color {
+  background-color: #777;
+}
+
+.third-level-color {
+  background-color: #aaa;
+}
+
+.fourth-level-color {
+  background-color: #ddd;
+}
+
+/* Style of event box */
+#event-box {
+  flex-direction: column;
+  align-items: baseline;
+  width: 100%;
+}
+
+#event-box div {
+  margin: 50px auto;
+}
+
+#event-box time {
+  margin: 50px auto 0 auto;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #e2e2e2;
+}
+
+.article h2 {
+  width: 90%;
+  font-size: 20px;
+}
+
+.smashing-newsletter h2 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+#event-box h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.smashing-newsletter a {
+  color: white;
+  text-decoration: none;
+}
+
+#event-box h2 a {
+  color: white;
+}
+
+#event-box h2 span {
+  display: block;
+  margin: 10px 0;
+}
+
+#event-box p {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: auto;
+  width: 800px;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#event-box button {
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  height: 50px;
+  border: none;
+}
+
+#big-image-event {
+  padding: 200px 400px;
+}
+
+.article-note {
+  margin: 20px 0;
+}
+
+.article {
+  margin: 10px;
+}
+
+.article ul {
+  margin-left: 20px;
+  width: 75%;
+}
+
+footer li {
+  display: inline;
+}
+
+.second-level-color li {
+  margin: 15px 0;
+}
+
+.article small {
+  font-size: 10px;
+}
+
+.smashing-newsletter {
+  margin: 100px 0;
+  padding: 50px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.smashing-newsletter .content {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.smashing-newsletter .imagen {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  border-radius: 50%;
+}
+
+.smashing-newsletter form {
+  margin: 10px;
+  height: 75px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.smashing-newsletter .footer-content {
+  margin: 10px;
+  font-size: 15px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer h4 {
+  margin: 50px;
+}
+
+.footer-topics {
+  margin: 0 100px;
+  width: 75%;
+}
+
+ul.footer-topics li::before {
+  content: "\25CF";
+  margin-right: 0.5em;
+}
+
+ul.footer-topics {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+ul.footer-topics li {
+  list-style-type: disc;
+}
+
+.footer-notes {
+  width: 30%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 60px;
+}
+
+.contact {
+  font-size: 0.9rem;
+}
+
+.contact ul {
+  width: 30%;
+  margin: auto;
+}
+
+.right-image {
+  position: relative;
+  left: 150px;
+  top: -150px;
+  width: 90px;
+  height: 120px;
+}
