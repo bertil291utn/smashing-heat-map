@@ -13,7 +13,7 @@ In this simple project, you’ll be breaking apart the website for a popular des
 
 ## Live demo
 
-<a href="https://raw.githack.com/bertil291utn/smashing-heat-map/feature-branch/index.html" target="_blank">Check it out</a>💻
+<a href="https://bertil291utn.github.io/smashing-heat-map/" target="_blank">Check it out</a>💻
 
 ## Getting Started
 
